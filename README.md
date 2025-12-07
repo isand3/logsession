@@ -11,7 +11,7 @@ Usage: logsession [-d log_directory] [-f filename]
 `logsession` will run in the background when you start it and log everything to a default location of `$HOME/.logs/` with a name based on the current timestamp, unless otherwise configured.
 
 
-Additionally, when `logsession` is running the `clear` command is disabled. This is because running clear while `script` is running will wipe out all the logs previous to the `clear` command. I frequently run `clear` as a habit, so I decided to add this functionality. It is explained in the setup section.
+Additionally, when `logsession` is running, the `clear` command is disabled. This is because running clear while `script` is running will wipe out all the logs previous to the `clear` command. I frequently run `clear` as a habit, so I decided to add this functionality. It is explained in the setup section.
 
 ## Setup
 It is fairly simple to set up `logsession`:
@@ -38,3 +38,4 @@ fi
 ## Dependencies
 Requires `coreutils` and `util-linux`.
 Also requires you to use a bash shell.
+
